@@ -1,15 +1,117 @@
 body{
 
 padding: 0px;
-margin: 0px;;
-background-color: #3C6E71;
+margin: 0px;
+background-color: #E5E9EB;
+font-family: Arial, Helvetica, sans-serif
+font-weight: lighter;
 
 }
 
 h1{
 
 text-align: center;
-color: #fff;
+color: black;
+font-weight: 200;
+
+}
+
+
+.dashboard-container{
+border: 1px solid #fff;
+height: 500px;
+background-color: #fff;
+border-radius: 5px;
+ margin: 40px;
+ padding: 50px;
+ height:1000px;
+
+}
+
+.toprow{
+height: 300px;
+width: 300px;
+padding: 0px;
+margin: 0px;
+
+
+}
+
+hr{
+position: relative;
+ bottom: 300px;
+
+}
+
+
+.logo{
+
+    width: 80px;
+    height: 80px;
+    font-size: 15px;
+    font-weight: 100;
+    position: relative;
+    bottom: 30px;
+}
+
+.dashbtn{
+
+    background-color:#FF934F;
+    margin: 0 0px 100px 80px;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    position: relative;
+    bottom: 133px;
+    
+    
+    }
+
+   
+        
+.fa-user{
+
+    position: absolute;
+    right:  170px;
+    top: 145px;
+    border-radius: 50px;
+
+}
+
+
+
+.fa-message{
+
+    position: absolute;
+    right:  110px;
+    top: 145px;
+   
+    border-radius: 50px;
+
+}
+
+.dashtitle{
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    position: relative;
+    bottom: 300px;
+    font-family: 'Lucida Sans';
+    font-weight: 100;
+}
+
+.overviewbtn{
+
+    background-color:#8ecae6;
+    margin: 0 0px 100px 80px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 405px;
+    left: 50px;
+
 
 }
 
