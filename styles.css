@@ -175,10 +175,45 @@ padding: 20px;
 margin: 30px;
 
 
+}
+
+
+
+.content-container{
+position: relative;
+bottom: 500px;
+display: flex;
+text-align: center;
+background-color: #e5e5e5;
+
+
+}
+
+.rankings{
+
+width: 200px;
+margin: 10px;
+flex-shrink: 0;
 
 
 }
 
 
+.middle{
+
+    width: 200px;
+    margin: 10px;
+   flex-grow: 2;
+   flex-basis: 0;
+
+}
+
+.site-audit{
+
+    width: 200px;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 0;
 
 
+}
